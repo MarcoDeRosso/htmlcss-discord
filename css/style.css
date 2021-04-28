@@ -62,8 +62,14 @@ nav.topbar .menù{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    width: 100%;
+    width: 1200px;
     height: 200px;
     border: 1px solid white;
     background: blue;
+}
+
+/* inizio bottoni */
+
+.jumbo-buttons{
+    text-align: center;
 }
