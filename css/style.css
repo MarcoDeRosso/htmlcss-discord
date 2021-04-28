@@ -14,10 +14,9 @@
     float: left;
 }
 
-.conteiner{
+.container{
     max-width: 1200px;
     margin: 0 auto;
-    position: relative;
 }
 
 ul{
@@ -33,6 +32,7 @@ header{
     height: 600px;
     background: aqua;
     padding-top: 20px;
+    position: relative;
 }
 
 /* inizio nav bar */
@@ -40,6 +40,7 @@ header{
 nav.topbar{
     height: 50px;
     border: 1px solid white;
+    background: red;
 }
 
 nav.topbar .logo, nav.topbar .login{
@@ -56,7 +57,7 @@ nav.topbar .menù{
 
 /* inizio testo jumbo */
 
-.textjumbo-conteiner{
+.textjumbo-container{
     position: absolute;
     top: 50%;
     left: 50%;
