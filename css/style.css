@@ -15,7 +15,7 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -25,7 +25,20 @@ ul{
 
 li{
     display: inline-block;
+    margin-left: 20px;
 }
+
+.button{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
 /* inizio header */
 
 header{
@@ -40,21 +53,33 @@ header{
 /* inizio nav bar */
 
 nav.topbar{
-    height: 50px;
-    border: 1px solid white;
-    background: red;
+    height: 32px;
+    line-height: 32px;
 }
 
 nav.topbar .logo, nav.topbar .login{
     width: 25%;
     height: 100%;
-    border: 1px solid white;
 }
 
 nav.topbar .menù{
     width: 50%;
     height: 100%;
-    border: 1px solid white;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav.topbar .login{
+    text-align: right;
+}
+
+nav.topbar .login .login-button{
+    border-radius: 20px;
+    background: #fff;
+    padding:5px 10px 5px;
+    text-decoration: none;
 }
 
 /* inizio testo jumbo */
@@ -64,7 +89,7 @@ nav.topbar .menù{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-    width: 1200px;
+    width: 1000px;
     height: 200px;
     border: 1px solid white;
     background: blue;
