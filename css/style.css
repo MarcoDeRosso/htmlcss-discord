@@ -17,6 +17,7 @@
 .conteiner{
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 ul{
@@ -51,4 +52,17 @@ nav.topbar .menù{
     width: 50%;
     height: 100%;
     border: 1px solid white;
+}
+
+/* inizio testo jumbo */
+
+.textjumbo-conteiner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    background: blue;
 }
