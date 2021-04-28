@@ -144,7 +144,9 @@ section{
 .img-main2{
     background-image: url(../img/item2.svg);
 }
-
+.img-main3{
+    background-image: url(../img/item3.svg);
+}
 .text-main{
     width: 40%;
     padding-top: 30px;
