@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+/* inizio header */
+
+header{
+    height: 600px;
+    background: aqua;
+    padding-top: 20px;
+}
+
+/* inizio nav bar */
+
+nav.topbar{
+    height: 50px;
+    border: 1px solid white;
+}
+
+nav.topbar .logo, nav.topbar .login{
+    width: 25%;
+    height: 100%;
+    border: 1px solid white;
+}
+
+nav.topbar .menù{
+    width: 50%;
+    height: 100%;
+    border: 1px solid white;
+}
