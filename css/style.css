@@ -53,17 +53,17 @@ nav ul li{
     margin-left: 20px;
 }
 
-nav.topbar{
+nav.topbar, nav.footerbar{
     height: 32px;
     line-height: 32px;
 }
 
-nav.topbar .logo, nav.topbar .login{
+nav .logo, nav .login{
     width: 25%;
     height: 100%;
 }
 
-nav.topbar .menù{
+nav .menù{
     width: 50%;
     height: 100%;
     text-align: center;
@@ -72,11 +72,11 @@ nav.topbar .menù{
     font-size: 14px;
 }
 
-nav.topbar .login{
+nav .login{
     text-align: right;
 }
 
-nav.topbar .login .login-button{
+nav .login .login-button{
     border-radius: 20px;
     background: #fff;
     padding:5px 10px 5px;
@@ -199,6 +199,7 @@ section{
 /* inizio footer */
 footer{
     background: #23272a;
+    padding-bottom: 20px;
 }
 
 [class*="-footernav"]{
@@ -234,4 +235,23 @@ footer{
     color: #fff;
     font-size: 14px;
     margin-top: 20px;
+}
+
+/* inizio footernavbar */
+
+.footerbar{
+    border-top: 1px solid #6f86d5;
+    margin: 20px 0 40px;
+    padding-top: 20px;
+}
+
+nav .login .register-button{
+    border-radius: 20px;
+    background: #8ea1e1;
+    padding:5px 10px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
 }
