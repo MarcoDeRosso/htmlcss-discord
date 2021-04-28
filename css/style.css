@@ -83,6 +83,7 @@ nav.topbar .login .login-button{
     text-decoration: none;
     font-weight: bold;
     font-size: 14px;
+    cursor: pointer;
 }
 
 /* inizio testo jumbo */
@@ -125,13 +126,23 @@ nav.topbar .login .login-button{
 }
 
 /* inizio main */
+section{
+    margin:100px 0 100px;
+}
 
-.img-main{
+[class*="img-main"]{
     height: 400px;
     width: 60%;
-    background-image: url(../img/item1.svg);
     background-position: center;
     background-size: cover;
+}
+
+.img-main1{
+    background-image: url(../img/item1.svg);
+}
+
+.img-main2{
+    background-image: url(../img/item2.svg);
 }
 
 .text-main{
