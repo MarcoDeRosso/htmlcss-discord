@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .clearfix::after{
@@ -80,6 +81,8 @@ nav.topbar .login .login-button{
     background: #fff;
     padding:5px 10px 5px;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 /* inizio testo jumbo */
@@ -90,15 +93,35 @@ nav.topbar .login .login-button{
     left: 50%;
     transform: translate(-50% , -50%);
     width: 1000px;
-    height: 200px;
-    border: 1px solid white;
-    background: blue;
 }
 
+.textjumbo-container h1, .textjumbo-container p{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.textjumbo-container h1{
+    font-size: 38px;
+}
+
+.textjumbo-container p{
+    font-size: 16px;
+    line-height: 28px;
+}
 /* inizio bottoni */
 
 .jumbo-buttons{
     text-align: center;
+}
+
+.jumbo-buttons .bMac, .jumbo-buttons .bBrowser{
+    font-weight: bolder;
+}
+
+.jumbo-buttons .bBrowser{
+    background: black;
+    color: #fff;
 }
 
 /* inizio main */
