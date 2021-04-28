@@ -73,3 +73,17 @@ nav.topbar .menù{
 .jumbo-buttons{
     text-align: center;
 }
+
+/* inizio main */
+
+.img-main{
+    height: 400px;
+    width: 60%;
+    background: chocolate;
+}
+
+.text-main{
+    height: 400px;
+    width: 40%;
+    background: darkgoldenrod;
+}
