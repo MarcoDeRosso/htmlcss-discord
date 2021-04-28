@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin:0;
     padding:0;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .clearfix::after{
@@ -110,6 +110,7 @@ nav.topbar .login .login-button{
     font-size: 16px;
     line-height: 28px;
 }
+
 /* inizio bottoni */
 
 .jumbo-buttons{
@@ -144,9 +145,11 @@ section{
 .img-main2{
     background-image: url(../img/item2.svg);
 }
+
 .img-main3{
     background-image: url(../img/item3.svg);
 }
+
 .text-main{
     width: 40%;
     padding-top: 30px;
@@ -160,4 +163,35 @@ section{
 .text-main p{
     font-size: 14px;
     line-height: 30px;
+}
+
+/* inizio sezione prefooter */
+
+.main-footer {
+    text-align: center;
+}
+
+.main-footer h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.main-footer p{
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.main-footer .pre-button{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 20px 0 50px;
+}
+
+.main-footer .bMac{
+    background-color: #8ea1e1;
+    color: #fff;
 }
