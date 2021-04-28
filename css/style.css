@@ -129,11 +129,22 @@ nav.topbar .login .login-button{
 .img-main{
     height: 400px;
     width: 60%;
-    background: chocolate;
+    background-image: url(../img/item1.svg);
+    background-position: center;
+    background-size: cover;
 }
 
 .text-main{
-    height: 400px;
     width: 40%;
-    background: darkgoldenrod;
+    padding-top: 30px;
+}
+
+.text-main h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text-main p{
+    font-size: 14px;
+    line-height: 30px;
 }
